@@ -84,12 +84,14 @@ struct {
 	int key;
 } io[] = {
 //	  Input    Output (from /usr/include/linux/input.h)
-	{ 25,      KEY_LEFT     },
-	{  9,      KEY_RIGHT    },
-	{ 10,      KEY_UP       },
-	{ 17,      KEY_DOWN     },
-	{ 23,      KEY_LEFTCTRL },
-	{  7,      KEY_LEFTALT  }
+	{ 27,      KEY_LEFT     },
+	{ 10,      KEY_RIGHT    },
+	{ 22,      KEY_UP       },
+	{ 9,       KEY_DOWN     },
+	{ 4,       KEY_LEFTALT  },
+	{ 17,      KEY_SPACE    },
+	{ 3,       KEY_D        },
+	{ 2,       KEY_C        }
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
 
