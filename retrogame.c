@@ -90,8 +90,14 @@ struct {
 	{ 9,       KEY_DOWN     },
 	{ 4,       KEY_LEFTALT  },
 	{ 17,      KEY_SPACE    },
+	{ 18,      KEY_ENTER    },
+	{ 23,      KEY_ESC      },
 	{ 3,       KEY_D        },
-	{ 2,       KEY_C        }
+	{ 2,       KEY_C        },
+	{ 23,      KEY_1        },
+	{ 24,      KEY_2        },
+	{ 6,       KEY_5        },
+	{ 25,      KEY_TAB      }
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
 
