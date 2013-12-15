@@ -94,10 +94,10 @@ struct {
 	{ 23,      KEY_ESC      },
 	{ 3,       KEY_D        },
 	{ 2,       KEY_C        },
-	{ 23,      KEY_1        },
-	{ 24,      KEY_2        },
-	{ 6,       KEY_5        },
-	{ 25,      KEY_TAB      }
+	{ 24,      KEY_1        },
+	{ 25,      KEY_2        },
+	{ 8,       KEY_5        },
+	{ 7,      KEY_TAB      }
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
 
